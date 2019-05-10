@@ -1,0 +1,40 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.rayeh.retrievinggithubrepos">
+    <!--Permissions-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application android:allowBackup="true"
+                 android:label="@string/app_name"
+                 android:name=".AndroidApplication"
+                 android:icon="@mipmap/ic_launcher"
+                 android:supportsRtl="true"
+                 android:theme="@style/AppTheme"
+                >
+
+    <!--Activities-->
+    <activity
+            android:name="com.rayeh.retrievinggithubrepos.core.Navigation.RouteActivity"
+            android:noHistory="true"
+            android:theme="@style/AppTheme.Translucent">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+
+
+
+    <activity
+            android:name=".features.repos.GithubActivity"
+            android:label="@string/github_details_screen_title">
+    </activity>
+
+    <activity
+            android:name=".features.repos.GithubDetailActivity"
+            android:label="@string/github_details_screen_title"
+            >
+    </activity>
+
+    </application>
+</manifest>

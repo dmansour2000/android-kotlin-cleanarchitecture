@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorAccent"
+                android:orientation="vertical"
+>
+
+    <TextView
+            style="@style/GithubDetailsTitle"
+            android:text="@string/github_details_summary"
+    />
+    <TextView
+            android:id="@+id/githubSummary"
+            style="@style/GithubDetailsText"
+    />
+    <TextView
+            style="@style/GithubDetailsTitle"
+            android:text="@string/github_URL"/>
+    <TextView
+            android:id="@+id/githubURL"
+            style="@style/GithubDetailsText"
+    />
+
+
+
+
+</LinearLayout>

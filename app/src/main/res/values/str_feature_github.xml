@@ -1,0 +1,9 @@
+<resources>
+    <string name="github_screen_title">Github Repos</string>
+    <string name="github_details_summary">Repo Name</string>
+    <string name="github_URL">Repo URL</string>
+    <string name="github_details_screen_title">Github Repos</string>
+
+
+
+</resources>
