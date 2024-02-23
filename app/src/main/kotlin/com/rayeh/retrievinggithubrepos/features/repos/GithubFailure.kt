@@ -4,5 +4,4 @@ import com.rayeh.retrievinggithubrepos.core.exception.Failure.FeatureFailure
 
 class GithubFailure {
     class ListNotAvailable: FeatureFailure()
-    class NonExistentMovie: FeatureFailure()
 }
