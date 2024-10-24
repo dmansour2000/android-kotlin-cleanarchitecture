@@ -2,7 +2,7 @@
  
  ### Description
 
-This native Android mobile app, built Using Kotlin, Dependency Injection, Dagger and RetroFit rettrieves the users' GitHub Repos list and navigates to them in a web view.
+This native Android mobile app, built Using Kotlin, Dependency Injection, Dagger and RetroFit retrieves the users' GitHub Repos list and navigates to them in a web view.
 
 ### App Screenshots
 <p>
